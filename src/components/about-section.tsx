@@ -41,12 +41,11 @@ const AboutSection = () => {
           <div className="flex flex-col items-center justify-start gap-8">
             <div className="flex justify-center animate-in fade-in zoom-in-75 duration-500 delay-300">
               <Image
-                src="https://placehold.co/400x400.png"
+                src="/profile.jpg"
                 width={400}
                 height={400}
                 alt="Bhavya Singh"
                 className="rounded-full object-cover border-4 border-primary/30 shadow-xl transition-transform duration-300 hover:scale-105 hover:shadow-primary/20"
-                data-ai-hint="portrait woman"
               />
             </div>
             <div className="w-full max-w-md space-y-6">
