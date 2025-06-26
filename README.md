@@ -1,5 +1,6 @@
-# Firebase Studio
+# 🚀 Bhavya Singh | Portfolio Website  
 
-This is a NextJS starter in Firebase Studio.
+Welcome to my personal developer portfolio website! 🌐  
+Built to showcase my skills, projects, and journey as a tech enthusiast focused on AI, Cybersecurity, and Problem Solving.  
 
-To get started, take a look at src/app/page.tsx.
+---
