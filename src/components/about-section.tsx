@@ -27,9 +27,17 @@ const AboutSection = () => {
               <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl text-primary animate-in fade-in slide-in-from-bottom-12 duration-500">
                 About Me
               </h2>
-              <p className="max-w-[600px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed animate-in fade-in slide-in-from-bottom-12 duration-500" style={{ animationDelay: '150ms' }}>
-                As a proactive B.Tech student specializing in CSE with a focus on AI, I am passionate about the intersection of technology, security, and innovation. My journey is driven by a strong curiosity for Cybersecurity and Ethical Hacking, which I complement with a rigorous practice in Data Structures & Algorithms using C++. I thrive on building efficient, scalable software and solving complex problems to create impactful solutions.
-              </p>
+              <div className="max-w-[600px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed space-y-4">
+                <p className="animate-in fade-in slide-in-from-bottom-12 duration-500" style={{ animationDelay: '150ms' }}>
+                    As a proactive B.Tech student specializing in CSE with a focus on AI, I am passionate about the intersection of technology, security, and innovation.
+                </p>
+                <p className="animate-in fade-in slide-in-from-bottom-12 duration-500" style={{ animationDelay: '250ms' }}>
+                    My journey is driven by a strong curiosity for Cybersecurity and Ethical Hacking, complemented by a rigorous practice in Data Structures & Algorithms using C++.
+                </p>
+                <p className="animate-in fade-in slide-in-from-bottom-12 duration-500" style={{ animationDelay: '350ms' }}>
+                    I thrive on building efficient, scalable software and solving complex problems to create impactful solutions.
+                </p>
+              </div>
             </div>
             <div className="space-y-6">
               {timeline.map((item, index) => (
@@ -56,7 +64,7 @@ const AboutSection = () => {
               width={400}
               height={400}
               alt="Bhavya Singh"
-              className="rounded-lg object-cover border-4 border-primary/30 shadow-xl transition-transform duration-300 hover:scale-105 hover:shadow-primary/20"
+              className="rounded-full object-cover border-4 border-primary/30 shadow-xl transition-transform duration-300 hover:scale-105 hover:shadow-primary/20"
               data-ai-hint="portrait woman"
             />
           </div>
