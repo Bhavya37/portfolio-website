@@ -23,12 +23,18 @@ const ProjectsSection = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const response = await fetch("https://api.github.com/users/Bhavya37/repos?sort=pushed&per_page=6");
+        const response = await fetch("https://api.github.com/users/Bhavya37/repos?sort=pushed&per_page=8");
         if (!response.ok) {
           throw new Error("Failed to fetch projects from GitHub.");
         }
         const data = await response.json();
-        setRepos(data);
+        
+        const excludedRepos = ["kaizentechcult", "Bhavya37"];
+        const filteredRepos = data
+          .filter((repo: Repo) => !excludedRepos.includes(repo.name))
+          .slice(0, 6);
+
+        setRepos(filteredRepos);
       } catch (err) {
         if (err instanceof Error) {
             setError(err.message);
