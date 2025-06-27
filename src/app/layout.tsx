@@ -5,6 +5,9 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: "Bhavya's CyberDeck",
   description: 'Portfolio of Bhavya Singh, a student exploring AI and Cybersecurity.',
+  icons: {
+    icon: 'data:;base64,iVBORw0KGgo=',
+  }
 };
 
 export default function RootLayout({
