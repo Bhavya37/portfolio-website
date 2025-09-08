@@ -16,12 +16,12 @@ const skillsData = [
   {
     category: "Tools",
     icon: <BrainCircuit className="h-8 w-8 text-primary" />,
-    skills: ["Git", "GitHub", "MySQL", "Linux", "VS Code"],
+    skills: ["Git", "GitHub", "MySQL", "VS Code"],
   },
   {
     category: "Interests",
     icon: <Shield className="h-8 w-8 text-primary" />,
-    skills: ["Cybersecurity", "Ethical Hacking", "AI", "ML", "DSA"],
+    skills: [ "AI", "ML", "DSA" , "Emerging AI Trends],
   },
 ];
 
