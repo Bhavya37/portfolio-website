@@ -21,7 +21,7 @@ const skillsData = [
   {
     category: "Interests",
     icon: <Shield className="h-8 w-8 text-primary" />,
-    skills: [ "AI", "ML", "DSA" , "Emerging AI Trends],
+    skills: [ "AI", "ML", "DSA" , "Emerging AI Trends"],
   },
 ];
 
